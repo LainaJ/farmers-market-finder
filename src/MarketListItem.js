@@ -5,8 +5,11 @@ class MarketListItem extends React.Component {
 
     render(){
         return (
-            <div>
-                {this.props.market}
+            <div className="MarketListItem">
+                <p>Marketname: {this.props.market.marketname}</p>
+                <p>Location: {this.props.market.streetaddress}</p>
+                <p>Hours: </p>
+    
             </div>
 
         )

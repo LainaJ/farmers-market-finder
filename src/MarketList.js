@@ -5,13 +5,14 @@ class MarketList extends React.Component {
 
 
     renderMarketListItems = () => {
-        return this.props.markets.map(market => <MarketListItem key={market.key} market={market} />) 
-        console.log(this.props.markets)
+       let markets = this.props.markets 
+        return markets.map(market => 
+        <MarketListItem key={market.id} market={market} />)
     }
 
     render(){
         return (
-            <div>
+            <div className="MarketContainer">
                 {this.renderMarketListItems()}
             </div>
 

@@ -1,0 +1,39 @@
+body {
+    margin: auto;
+  }
+  
+  #App {
+    display: flex;
+  }
+  
+  .MarketContainer {
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  /* .MarketDisplay {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .MarketDisplay img {
+    width: 50%;
+  }
+  
+  .MarketDisplay select {
+    width: 30%;
+  } */
+  
+  .MarketListItem {
+    width: 50%;
+    margin: 0 auto;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
