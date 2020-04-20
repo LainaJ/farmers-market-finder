@@ -12,9 +12,9 @@ body {
    align-items: center;
   }
   
-  /* .MarketDisplay {
+  .MarketDisplay {
     width: 75vw;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
   
   .MarketDisplay select {
     width: 30%;
-  } */
+  }
   
   .MarketListItem {
     width: 50%;
