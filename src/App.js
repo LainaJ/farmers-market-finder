@@ -1,6 +1,6 @@
 import React from 'react'
 import MarketList from './MarketList.js'
-// import farmBasket from './farmBasket.jpg'
+import farmBasket from './farmBasket.jpg'
 
 let appToken = process.env.REACT_APP_FM_API_KEY
 
@@ -30,7 +30,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <img src='farmBasket.jpg' alt="farmers market basket"/>
+        <img className="MarketDisplay" src={farmBasket} alt="farmers market basket"/>
         <div> 
           {this.renderMarketList()} 
         </div> 
